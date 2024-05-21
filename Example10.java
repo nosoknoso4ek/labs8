@@ -10,9 +10,9 @@ public class Example10 {
         try {
             br = new BufferedReader(
                     new InputStreamReader(
-                            new FileInputStream("/home/funk2256/My/Example10.txt"), "cp1251"));
+                            new FileInputStream("D:/10/MyFile1.txt"), "cp1251"));
 
-            PrintWriter out = new PrintWriter("/home/funk2256/My/Example11.txt");
+            PrintWriter out = new PrintWriter("D:/10/MyFile2.txt", "cp1251");
             int lineCount = 0;
             String s;
             while ((s = br.readLine()) != null) {

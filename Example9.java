@@ -10,10 +10,10 @@ public class Example9 {
         try {
             br = new BufferedReader(
                     new InputStreamReader(
-                            new FileInputStream("/home/funk2256/My/Example8.txt"), "cp1251"));
+                            new FileInputStream("D:/9/MyFile1.txt"), "cp1251"));
             bw = new BufferedWriter(
                     new OutputStreamWriter(
-                            new FileOutputStream("/home/funk2256/My/Example9.txt"), "cp1251"));
+                            new FileOutputStream("D:/9/MyFile2.txt"), "cp1251"));
             // Переписывание информации из одного файла в другой
             int lineCount = 0; //счетчик
             String s;

@@ -7,8 +7,8 @@ public class Example7 {
         BufferedReader br = null;
         BufferedWriter out = null;
         try {
-            br = new BufferedReader(new FileReader("/home/funk2256/My/MyFile1.txt"), 1024);
-            out = new BufferedWriter(new FileWriter("/home/funk2256/My/MyFile2.txt"));
+            br = new BufferedReader(new FileReader("D:/nanananana/MyFile1.txt"), 1024);
+            out = new BufferedWriter(new FileWriter("D:/nanananana/MyFile2.txt"));
 
             int lineCount = 0;
             String s;

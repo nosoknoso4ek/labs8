@@ -6,12 +6,12 @@ import  java.io.OutputStream;
 
 public class Example4 {
     public static void main(String[] args) {
-        File dir = new File("/home/funk2256/My");
+        File dir = new File("/D:/My");
         boolean created = dir.mkdir();
         if (created)
             System.out.println("Папка " + dir.getName() + " создана");
        try {
-           File f1 = new File("/home/funk2256/My/numIsh.txt");
+           File f1 = new File("/D:/My/numIsh.txt");
            f1.createNewFile();
 //            boolean createdFile = newFile.createNewFile();
 //            if (createdFile)
@@ -28,7 +28,7 @@ public class Example4 {
            wr.flush();
            wr.close();
            File f2=new
-                   File("/home/funk2256/My/numRez.txt");
+                   File("/D:/My/numRez.txt");
            f2.createNewFile();
 // поток для чтения из исходного файла numIsh.txt
            DataInputStream rd =

@@ -8,7 +8,7 @@ import java.net.URL;
 public class Example2 {
     public static void main(String[] args) throws IOException {
         try {
-            InputStream inFile = new FileInputStream("/home/funk2256/text.txt");
+            InputStream inFile = new FileInputStream("D:/My File.txt");
 //            readAllByByte(inFile);
             System.out.print("\n\n\n");
             inFile.close();

@@ -6,8 +6,8 @@ import java.io.*;
 
 public class Task3 {
     public static void main(String[] args) {
-        String sourceFilePath = "/home/funk2256/IdeaProjects/Java/src/laba8/Task3.txt";
-        String destinationFilePath = "/home/funk2256/IdeaProjects/Java/src/laba8/Task3_2.txt";
+        String sourceFilePath = "/D:/downloads/Java-Irit-main/Java-Irit-main/src/laba8/Task3.txt";
+        String destinationFilePath = "/D:/downloads/Java-Irit-main/Java-Irit-main/src/laba8/Task3_2.txt";
 
         try {
             FileReader fileReader = new FileReader(sourceFilePath);

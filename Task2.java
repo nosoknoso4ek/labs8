@@ -5,8 +5,8 @@ import java.util.concurrent.LinkedTransferQueue;
 
 public class Task2 {
     public static void main(String[] args) throws IOException {
-    String file1 = "/home/funk2256/IdeaProjects/Java/src/laba8/Task2_1.txt";
-    String file2 = "/home/funk2256/IdeaProjects/Java/src/laba8/Task2_2.txt";
+    String file1 = "/D:/downloads/Java-Irit-main/Java-Irit-main/src/laba8/Task2_1.txt";
+    String file2 = "/D:/downloads/Java-Irit-main/Java-Irit-main/src/laba8/Task2_2.txt";
     try {
         FileReader fileReader = new FileReader(file1);
         BufferedReader br = new BufferedReader(fileReader);

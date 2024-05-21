@@ -6,7 +6,8 @@ import java.io.InputStream;
 import java.util.Arrays;
 
 public class Example3 {
-    public class File_ByteRead_SamBuff {
+    public static class File_ByteRead_SamBuff {
+
         public static void readAllByArray(InputStream in) throws IOException {
             byte[] buff = new byte[5];
             while (true) {
@@ -22,7 +23,7 @@ public class Example3 {
         }
 
         public static void main(String[] args) throws IOException {
-            String fileName = "/home/$USER/MyFile.txt";
+            String fileName = "D:/My File.txt";
             InputStream inFile = null;
 
             try {

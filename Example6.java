@@ -7,8 +7,8 @@ public class Example6 {
         Reader in=null; // можно сразу записать FileReader in=null;
         Writer out=null; // можно сразу записать FileWriter out =null;
         try {
-            in = new FileReader("E:\\MyFile1.txt"); // файл для чтения
-            out= new FileWriter("E:\\MyFile2.txt", true); // файл для записи
+            in = new FileReader("D:/bibika/banan.txt"); // файл для чтения
+            out= new FileWriter("D:/bibika/pepsi.txt", true); // файл для записи
 // Данные считываются и записываются побайтно, как и для
 // InputStream/OutputStream
             int oneByte; // переменная, в которую считываются данные

@@ -18,7 +18,7 @@ public class Example8 {
 
     public static void main(String[] args) {
         try {
-            InputStream inFile = new FileInputStream("/home/funk2256/My/Example8.txt");
+            InputStream inFile = new FileInputStream("D:/nenene.txt");
             Reader rFile = new InputStreamReader(inFile, "cp1251");
             readAllByByte(rFile);
             System.out.print("\n\n\n");
